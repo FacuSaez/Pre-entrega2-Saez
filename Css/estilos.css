@@ -1,0 +1,456 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header{
+    background-color: #edede9;
+    height: 3.438rem;
+}
+
+#navbarNav{
+    text-align: center;
+}
+.nav-item{
+    margin-right: 170px;
+    font-size: 16px;
+}
+.slider-frame {
+	width: 31.25rem;
+    height: auto;
+	margin:0px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+.foto {
+    height: 29.375rem;
+    width: 18.75rem;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    font-family: 'Bruno Ace SC', cursive;
+}
+main{
+    background-color: white
+}
+.Cards{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.7rem;
+}
+.Cards img {
+    width: 13rem;
+    height: 13rem;
+}
+.Contenedorimg{
+    height: 500%;
+}
+.nombreBuzo{
+    text-align: center;
+    margin-top: -2.5rem;
+}
+
+.quienesSomos{
+    background-color: #f4f4e1;
+    height: 14rem;
+    width: 100%;
+    margin-bottom: -1rem;
+    background-color: #343a40;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+}
+.quienesSomos h2{
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+}
+.quienesSomos p{
+    color: white;
+    text-align: center;
+}
+
+.nombreBuzoDos{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+}
+.Contenedorbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Contenedorbutton a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.BotonDestacado{
+    display: flex;
+    margin: 0.312rem;
+    padding: .1rem;
+    background-color: #FFFF;
+}
+.nav-item:hover{
+    border: solid black 1px;
+    border-radius: 50px;
+    transition: all .2s;
+}
+
+.h2Shop h2{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.info{ 
+    display: flex;
+}
+.Infoubi a{
+    text-decoration: none;
+    color: black;
+}
+
+.Infoubi {
+    margin-left: 7.4rem;
+    margin-right: 4.6rem;
+    margin-top: 5.5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 20px;
+    text-align: center;
+    width: 450px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form, h1{
+    font-family: 'Bruno Ace SC', cursive;
+    color: #2b2c31;
+    font-size: 2.3rem;
+}
+label{
+    color: #2b2c31;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #f2f3f2;
+    border: 2px solid #F0FAF1;
+    color: #2b2c31;
+}
+input::placeholder, textarea::placeholder{
+    color: #343a40;
+}
+.formularioPrivacidad{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.formularioPrivacidad a{
+    color: #2b2c31;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 15px;
+}
+.btn{
+    font-size: 1rem;
+    color: #FFFF;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51D94C;
+    box-shadow: 0 0 20px green;
+    cursor: pointer;
+}
+.bnt:hover{
+    background-color: #50e04b;
+}
+.imagenLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: .9rem;
+}
+
+.BuzoCardsShop{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.7rem;
+    margin-top: 2rem;
+}
+.BuzoCardsShop img {
+    width: 13rem;
+    height: 13rem;
+}
+.ContenedorimgShop{
+    height: 500%;
+}
+.botonesPrendas{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.botonesPrendas a{
+    text-decoration: none;
+    color: white;
+    border-radius: 0.6rem;
+    background-color: black;
+    padding: 0.375rem;
+}
+
+.tituloAyuda{
+    text-align: center;
+}
+.tituloAyuda p{
+    font-family: 'Roboto', sans-serif;
+}
+.tituloAyuda h2{
+    font-family: 'Roboto', sans-serif;
+}
+.olLista{
+    display: flex;
+    justify-content: center;
+}
+.tituloAyudaDos{
+    text-align: center;
+    margin-top: 1rem;
+}
+.tituloAyudaDos h2{
+    font-family: 'Roboto', sans-serif;
+}
+.talles{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.talles img{
+    width: 40%;
+    height: 40%;
+}
+
+.ulFooter{
+    margin: 2rem;
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.logoRedes img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1.3rem;
+    list-style: none;   
+}
+.contenedorDerechos{
+    display: flex;
+    justify-content: end;
+    justify-content: center;
+}
+.ulFooterAyuda{
+    margin: 2rem;
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.ulFooterIndex{
+    margin: 2rem;
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.contenedorDerechosAyuda{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.7rem;
+}
+.a{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        width: 100%;
+        height: 100%;
+    }
+    .ulFooter{
+        margin: 2rem;
+        padding: 0rem 2rem 0rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .contenedorDerechos{
+        display: flex;
+        justify-content: end;
+        justify-content: center;
+    }
+    .info{
+        display: block;
+    }
+    .Infoubi{
+        margin-left: 3.4rem;
+        margin-right: 2.6rem;
+        margin-top: 2.5rem;
+    }
+    .mapa {
+        display: flex;
+        justify-content: center;
+    }
+    .mapa iframe{
+        width: 20rem;
+        height: 180;
+    }
+    .h2MqNuestrasTiendas{
+        display: flex;
+        justify-content: center;
+    }
+    .aMqNuestrasTiendas{
+        display: flex;
+        justify-content: center;
+    }
+    .pMqNuestrasTiendas{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .ulFooterAyuda{
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 10rem;
+}
+    .contenedorDerechosAyuda{
+        display: flex;
+        justify-content: center;
+    }
+    .talles img{
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .Cards{
+        flex-direction: column;
+    }
+    .divImgMQ{
+        display: flex;
+        justify-content: center;
+    }
+    .botonesPrendas{
+        margin: 1rem 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .botonesPrendas a {
+        display: flex;
+        margin: 0px;
+    }
+    .BotonDestacado{
+        padding: 0.3rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .mqIndex{
+        display: flex;
+        justify-content: center;
+    }
+    .quienesSomos{
+    background-color: #f4f4e1;
+    height: 19rem;
+    width: 100%;
+    margin-bottom: -1rem;
+    background-color: #343a40;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+    }
+    .nav-item{
+        background-color: #6c757d;
+        width: 100%;
+        border-radius: 50px;
+        margin-bottom: 10px;
+    }
+    .ulFooterIndex{
+        padding: 0rem 3rem 0rem 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin-top: 10rem;
+    }
+    .slider-frame{
+        width: 400px;
+    }
+}
